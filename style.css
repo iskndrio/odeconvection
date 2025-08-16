@@ -100,7 +100,7 @@ main {
 @media (max-width: 576px) {
   .map {
     height: 300px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 18rem;
   }
 }
 
