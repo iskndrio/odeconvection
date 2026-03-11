@@ -6,7 +6,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src="/Gambar-removebg-preview.png" alt="Logo" className="w-12 h-12 object-contain" />
+              <img src="/images/Gambar-removebg-preview.png" alt="Logo" className="w-12 h-12 object-contain" />
               <div>
                 <p className="text-white font-bold text-sm">Konveksi Pak Ode</p>
                 <p className="text-amber-400 text-xs">Tasikmalaya</p>

@@ -1,25 +1,25 @@
 const steps = [
   {
     number: 1,
-    icon: '/Black and White Simple Modern Letter G Monogram Logo.png',
+    icon: '/images/Black and White Simple Modern Letter G Monogram Logo.png',
     title: 'Konsultasi via WhatsApp',
     desc: 'Ceritakan kebutuhan dan desain yang kamu inginkan. Tim kami siap membantu 24 jam.',
   },
   {
     number: 2,
-    icon: '/pembayaran dp.png',
+    icon: '/images/pembayaran dp.png',
     title: 'Pembayaran DP',
     desc: 'Lakukan dp untuk mengkonfirmasi pesanan dan memulai proses produksi.',
   },
   {
     number: 3,
-    icon: '/proses produksi.png',
+    icon: '/images/proses produksi.png',
     title: 'Proses Produksi',
     desc: 'Pesanan kamu diproduksi dengan teliti oleh tim kami menggunakan bahan berkualitas.',
   },
   {
     number: 4,
-    icon: '/pengiriman.png',
+    icon: '/images/pengiriman.png',
     title: 'Pelunasan & Pengiriman',
     desc: 'Selesai produksi, lakukan pelunasan dan pesanan langsung dikirim ke alamatmu.',
   },

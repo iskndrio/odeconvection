@@ -40,7 +40,7 @@ export default function Testimonials() {
               {/* Profile */}
               <div className="flex items-center gap-3 pt-4 border-t border-gray-100">
                 <img
-                  src="/icons8-profile-50.png"
+                  src="/images/icons8-profile-50.png"
                   alt="Foto Profil"
                   className="w-10 h-10 rounded-full object-cover bg-gray-100"
                 />

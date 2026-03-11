@@ -28,7 +28,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         <a href="#" className="flex items-center gap-2">
-          <img src="/Gambar-removebg-preview.png" alt="Logo Konveksi Pak Ode" className="w-14 h-14 object-contain" />
+          <img src="/images/Gambar-removebg-preview.png" alt="Logo Konveksi Pak Ode" className="w-14 h-14 object-contain" />
           <span className="hidden sm:block font-bold text-gray-800 text-sm leading-tight">
             Konveksi<br /><span className="text-amber-500">Pak Ode</span>
           </span>

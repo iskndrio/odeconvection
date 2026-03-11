@@ -1,8 +1,8 @@
 const crinkleItems = [
-  { src: '/Crinkle_cotton___linen_blouse-removebg-preview.png', name: 'Baju Crinkle', tag: 'Bestseller' },
-  { src: '/Crinkle_cotton___linen_blouse-removebg-preview.png', name: 'Baju Crinkle', tag: 'New' },
-  { src: '/Crinkle_cotton___linen_blouse-removebg-preview.png', name: 'Baju Crinkle', tag: null },
-  { src: '/Crinkle_cotton___linen_blouse-removebg-preview.png', name: 'Baju Crinkle', tag: null },
+  { src: '/images/Crinkle_cotton___linen_blouse-removebg-preview.png', name: 'Baju Crinkle', tag: 'Bestseller' },
+  { src: '/images/Crinkle_cotton___linen_blouse-removebg-preview.png', name: 'Baju Crinkle', tag: 'New' },
+  { src: '/images/Crinkle_cotton___linen_blouse-removebg-preview.png', name: 'Baju Crinkle', tag: null },
+  { src: '/images/Crinkle_cotton___linen_blouse-removebg-preview.png', name: 'Baju Crinkle', tag: null },
 ]
 
 

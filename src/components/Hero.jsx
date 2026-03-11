@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative w-full overflow-hidden">
       <img
-        src="/Gambar WhatsApp 2025-08-06 pukul 23.59.07_fdcdb1a8.jpg"
+        src="/images/Gambar WhatsApp 2025-08-06 pukul 23.59.07_fdcdb1a8.jpg"
         alt="Hero Konveksi Pak Ode"
         className="w-full object-cover h-screen md:h-[85vh]"
       />

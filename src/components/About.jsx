@@ -1,14 +1,14 @@
 const galleryImages = [
-  { src: '/WA.jpg', alt: 'Galeri 1' },
-  { src: '/WA2.jpg', alt: 'Galeri 2' },
-  { src: '/WA3.jpg', alt: 'Galeri 3' },
-  { src: '/WA4.jpg', alt: 'Galeri 4' },
+  { src: '/images/WA.jpg', alt: 'Galeri 1' },
+  { src: '/images/WA2.jpg', alt: 'Galeri 2' },
+  { src: '/images/WA3.jpg', alt: 'Galeri 3' },
+  { src: '/images/WA4.jpg', alt: 'Galeri 4' },
 ]
 
 const trustedBrands = [
-  { src: '/emra.jpg', alt: 'Emra' },
-  { src: '/shea.jpg', alt: 'Shea' },
-  { src: '/beautyhijab.jpg', alt: 'Beauty Hijab' },
+  { src: '/images/emra.jpg', alt: 'Emra' },
+  { src: '/images/shea.jpg', alt: 'Shea' },
+  { src: '/images/beautyhijab.jpg', alt: 'Beauty Hijab' },
 ]
 
 const stats = [
@@ -108,7 +108,7 @@ export default function About() {
             </div>
             <div className="md:w-1/2">
               <img
-                src="/Desain tanpa judul (1).png"
+                src="/images/Desain tanpa judul (1).png"
                 alt="Gambar produksi"
                 className="rounded-2xl w-full object-cover shadow-xl"
               />
