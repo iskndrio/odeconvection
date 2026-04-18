@@ -54,7 +54,7 @@ export default function Footer() {
                 <i className="fab fa-whatsapp text-white" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/odeconvectiontasikmalaya"
                 className="w-9 h-9 rounded-full bg-white/10 hover:bg-amber-500 flex items-center justify-center transition"
               >
                 <i className="fab fa-instagram text-white" />
