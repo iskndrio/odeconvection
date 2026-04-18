@@ -1,18 +1,18 @@
 const testimonials = [
   {
-    name: 'Radit Prasetio',
+    name: 'Emra',
     location: 'Tasikmalaya',
-    text: 'Kualitas jahitan sangat bagus, bahan nyaman dipakai. Pelayanannya ramah dan pengirimannya cepat. Sangat puas!',
+    text: 'Order crinkle buat stok toko datang rapi dan sesuai warna yang diminta. Komunikasinya enak, prosesnya juga cepat.',
   },
   {
-    name: 'Siti Nurhaliza',
-    location: 'Bandung',
-    text: 'Sudah 3x order di sini, tidak pernah kecewa. Hasilnya selalu rapi dan sesuai ekspektasi. Recommended banget!',
+    name: 'Shea',
+    location: 'Tasikmalaya',
+    text: 'Kami pesan beberapa model sekaligus, hasil jahitannya konsisten dan finishing-nya bersih. Sangat membantu untuk produksi rutin.',
   },
   {
-    name: 'Andi Firmansyah',
-    location: 'Jakarta',
-    text: 'Harga lebih terjangkau dibanding konveksi lain tapi kualitasnya tidak kalah. Proses produksinya juga tepat waktu.',
+    name: 'Beauty Hijab',
+    location: 'Tasikmalaya',
+    text: 'Pengerjaannya tepat waktu dan hasilnya sesuai contoh. Buat kami yang butuh barang siap jual, ini sangat aman buat repeat order.',
   },
 ]
 

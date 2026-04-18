@@ -12,9 +12,9 @@ const trustedBrands = [
 ]
 
 const stats = [
-  { value: '500+', label: 'Produk Terjual' },
-  { value: '100+', label: 'Pelanggan Puas' },
-  { value: '5+', label: 'Tahun Pengalaman' },
+  { value: '7000+', label: 'Produk Terjual' },
+  { value: '500+', label: 'Pelanggan Puas' },
+  { value: '10+', label: 'Tahun Pengalaman' },
 ]
 
 export default function About() {
@@ -31,8 +31,7 @@ export default function About() {
                 <span className="text-amber-500">Tasikmalaya</span>
               </h1>
               <p className="text-gray-500 leading-relaxed mb-8">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore dolorem numquam dignissimos,
-                obcaecati, nemo vitae iure praesentium blanditiis voluptates sequi omnis delectus fugiat.
+                Konveksi Pak Ode adalah spesialis produksi pakaian wanita berkualitas tinggi di Tasikmalaya. Dengan pengalaman lebih dari 10 tahun, kami telah melayani ribuan pelanggan setia dari berbagai brand terkemuka. Komitmen kami adalah menghadirkan pakaian dengan jahitan rapi, bahan premium, dan desain yang sesuai dengan kebutuhan pasar modern.
               </p>
               <div className="flex gap-8">
                 {stats.map((s) => (
@@ -91,9 +90,7 @@ export default function About() {
                 Kualitas Terbaik,<br />Harga Terjangkau
               </h2>
               <p className="text-gray-500 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Kami memahami bahwa setiap produk pakaian wanita memerlukan perhatian detail yang khusus. Dari pemilihan bahan hingga finishing akhir, setiap tahap produksi dikerjakan dengan teliti oleh tim profesional kami. Kami menawarkan fleksibilitas untuk pesan dalam jumlah kecil maupun besar, dengan harga kompetitif dan kualitas yang tidak pernah berkompromi.
               </p>
               <ul className="mt-6 space-y-3">
                 {['Bahan berkualitas tinggi', 'Pengerjaan rapi & tepat waktu', 'Melayani partai kecil & besar'].map((item) => (
