@@ -17,10 +17,12 @@ const testimonials = [
 ]
 
 export default function Testimonials() {
+  const delayClasses = ['anim-delay-1', 'anim-delay-2', 'anim-delay-3']
+
   return (
     <section id="testimoni" className="py-20 bg-stone-50">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-12">
+        <div data-animate className="text-center mb-12">
           <span className="text-amber-500 text-sm font-semibold uppercase tracking-widest">Ulasan Pelanggan</span>
           <h1 className="text-4xl font-extrabold text-gray-900 mt-2">Apa Kata Mereka?</h1>
         </div>
@@ -29,7 +31,8 @@ export default function Testimonials() {
           {testimonials.map((t, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-2xl p-7 shadow-sm hover:shadow-lg transition duration-300 border border-gray-100 flex flex-col"
+              data-animate
+              className={`bg-white rounded-2xl p-7 shadow-sm hover:shadow-lg transition duration-300 border border-gray-100 flex flex-col ${delayClasses[idx % delayClasses.length]}`}
             >
               {/* Stars */}
               <div className="flex gap-1 text-amber-400 text-sm mb-5">

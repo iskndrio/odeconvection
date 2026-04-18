@@ -24,7 +24,7 @@ export default function About() {
       <section className="bg-stone-50 py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="md:w-1/2">
+            <div className="md:w-1/2" data-animate>
               <span className="text-amber-500 text-sm font-semibold uppercase tracking-widest">Tentang Kami</span>
               <h1 className="text-4xl font-extrabold text-gray-900 mt-2 mb-5 leading-tight">
                 Konveksi Pak Ode<br />
@@ -43,7 +43,7 @@ export default function About() {
                 ))}
               </div>
             </div>
-            <div className="md:w-1/2 grid grid-cols-2 gap-3">
+            <div className="md:w-1/2 grid grid-cols-2 gap-3" data-animate>
               {galleryImages.map((img, i) => (
                 <div key={img.alt} className={`overflow-hidden rounded-2xl ${i === 0 || i === 3 ? 'col-span-2' : ''}`}>
                   <img
@@ -61,13 +61,13 @@ export default function About() {
       {/* Trusted by */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-10">
+          <div className="text-center mb-10" data-animate>
             <span className="text-amber-500 text-sm font-semibold uppercase tracking-widest">Klien Kami</span>
             <h2 className="text-3xl font-extrabold text-gray-900 mt-2">Telah Dipercaya Oleh</h2>
           </div>
           <div className="flex justify-center flex-wrap gap-6">
-            {trustedBrands.map((brand) => (
-              <div key={brand.alt} className="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition duration-300">
+            {trustedBrands.map((brand, idx) => (
+              <div key={brand.alt} data-animate className={`group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition duration-300 anim-delay-${idx + 1}`}>
                 <img
                   src={brand.src}
                   alt={brand.alt}
@@ -85,7 +85,7 @@ export default function About() {
       <section className="py-20 bg-stone-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="md:w-1/2">
+            <div className="md:w-1/2" data-animate>
               <span className="text-amber-500 text-sm font-semibold uppercase tracking-widest">Mengapa Kami</span>
               <h2 className="text-3xl font-extrabold text-gray-900 mt-2 mb-5">
                 Kualitas Terbaik,<br />Harga Terjangkau
@@ -106,7 +106,7 @@ export default function About() {
                 ))}
               </ul>
             </div>
-            <div className="md:w-1/2">
+            <div className="md:w-1/2" data-animate>
               <img
                 src="/images/Desain tanpa judul (1).png"
                 alt="Gambar produksi"

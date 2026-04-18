@@ -26,10 +26,12 @@ const steps = [
 ]
 
 export default function OrderSteps() {
+  const delayClasses = ['anim-delay-1', 'anim-delay-2', 'anim-delay-3', 'anim-delay-4']
+
   return (
     <section id="order" className="py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-14">
+        <div data-animate className="text-center mb-14">
           <span className="text-amber-400 text-sm font-semibold uppercase tracking-widest">Mudah & Cepat</span>
           <h1 className="text-4xl font-extrabold text-white mt-2">Cara Order</h1>
           <p className="text-gray-400 mt-3 max-w-md mx-auto text-sm">
@@ -39,7 +41,7 @@ export default function OrderSteps() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((step, idx) => (
-            <div key={step.number} className="relative group">
+            <div key={step.number} data-animate className={`relative group ${delayClasses[idx % delayClasses.length]}`}>
               {/* Connector line */}
               {idx < steps.length - 1 && (
                 <div className="hidden lg:block absolute top-9 left-full w-full h-px bg-amber-500/30 z-0" style={{ width: 'calc(100% - 3rem)', left: '3rem' }} />
@@ -61,7 +63,7 @@ export default function OrderSteps() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        <div data-animate className="text-center mt-12 anim-delay-2">
           <a
             href="https://wa.me/+6285930037310"
             target="_blank"
